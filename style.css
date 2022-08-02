@@ -53,7 +53,11 @@ section {
     background-color: #f3eed9;
     padding: 200px 0;
     text-align: center;
-    color: #824936
+    color: #824936;
+    min-height: 660px; /*could be 100% viewport, for other kinds of designs*/
+    display: flex;
+    align-items: center;
+    
 }
 
 .intro__text {
